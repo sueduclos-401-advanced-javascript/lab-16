@@ -1,7 +1,7 @@
 {
   "name": "lab-16",
   "version": "1.0.0",
-  "description": "## Project Name -",
+  "description": "## Project Name - Code Academy Parcel Service",
   "main": "index.js",
   "scripts": {
     "start": "node index.js",
@@ -20,6 +20,8 @@
   },
   "homepage": "https://github.com/sueduclos-401-advanced-javascript/lab-16#readme",
   "dependencies": {
-    "eslint": "^6.8.0"
+    "eslint": "^6.8.0",
+    "faker": "^4.1.0",
+    "jest": "^26.0.1"
   }
 }
