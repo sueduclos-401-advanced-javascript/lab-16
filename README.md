@@ -18,7 +18,7 @@ Your application should automatically generate random orders every 5 seconds. Th
 
 ### Links and Resources
 
-- [submission PR]()
+- [submission PR](https://github.com/sueduclos-401-advanced-javascript/lab-16/pull/1)
 - [ci/cd](https://github.com/sueduclos-401-advanced-javascript/lab-16/actions) (GitHub Actions)
 
 ### Setup
