@@ -6,20 +6,24 @@ Code 401 Lab 16 - Event Driven Applications
 
 Create an event driven application that “distributes” logging commands to separate modules. Application will be called *CAPS*, the Code Academy Parcel Service. CAPS will simulate a delivery service where sellers will ship products and be notified when customer receives those products.
 
+Your application must simulate the order and delivery of an item, from seller to customer. The seller (or vendor) should alert the system that a package needs to be delivered, and a delivery driver should alert the system when a package is picked up for delivery. The driver should also alert the system when the package has been delivered. Thus, you should have three major events being communicated:
+
+- `pickup` - Tells the system when a new order needs to be delivered
+- `in-transit` - Tells the system which order is in the process of being delivered
+- `delivered` - Tells the system when the order has been delivered
+
+Your application should automatically generate random orders every 5 seconds. These random orders should have a store, id, customer, and address as the order data.
+
 ### Author: Sue Duclos
 
 ### Links and Resources
 
 - [submission PR]()
-- [ci/cd](http://xyz.com) (GitHub Actions)
-- [back-end server url](http://xyz.com) (when applicable)
-- [front-end application](http://xyz.com) (when applicable)
+- [ci/cd](https://github.com/sueduclos-401-advanced-javascript/lab-16/actions) (GitHub Actions)
 
 ### Setup
 
-#### `.env` requirements
-
-NA
+- `npm install`
 
 #### How to initialize/run your application
 
@@ -27,10 +31,9 @@ NA
 
 #### Tests
 
-- How do you run tests? `npm test`
-- Any tests of note?
-- Describe any tests that you did not complete, skipped, etc
+- `npm test`
+
 
 #### UML
 
-Link to an image of the UML for your application and response to events
+- [UML] ()
