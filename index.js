@@ -5,4 +5,4 @@
 
 const globalEmitter = require('./lib/events.js');
 
-globalEmitter.on()
+globalEmitter.on()  
